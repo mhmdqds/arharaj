@@ -1,9 +1,9 @@
 angular.module("harahj_alarab", ["ngCordova","ionic","ionMdInput","ionic-material","ion-datetime-picker","ionic.rating","utf8-base64","angular-md5","chart.js","pascalprecht.translate","ionicLazyLoad","harahj_alarab.controllers", "harahj_alarab.services"])
 	.run(function($ionicPlatform,$window,$interval,$timeout,$ionicHistory,$ionicPopup,$state,$rootScope){
 
-		$rootScope.appName = "harahj alarab" ;
+		$rootScope.appName = "حراج العرب" ;
 		$rootScope.appLogo = "data/images/header/logo.png" ;
-		$rootScope.appVersion = "1.0" ;
+		$rootScope.appVersion = "1.1" ;
 		$rootScope.headerShrink = false ;
 
 		$ionicPlatform.ready(function() {
@@ -162,6 +162,20 @@ angular.module("harahj_alarab", ["ngCordova","ionic","ionMdInput","ionic-materia
 			"harahj_alarab-side_menus" : {
 						templateUrl:"templates/harahj_alarab-cars.html",
 						controller: "carsCtrl"
+					},
+			"fabButtonUp" : {
+						template: '',
+					},
+		}
+	})
+
+	.state("harahj_alarab.dashboard", {
+		url: "/dashboard",
+		cache:true,
+		views: {
+			"harahj_alarab-side_menus" : {
+						templateUrl:"templates/harahj_alarab-dashboard.html",
+						controller: "dashboardCtrl"
 					},
 			"fabButtonUp" : {
 						template: '',
