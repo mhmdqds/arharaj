@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.imabuilder.smartweb.harahjalarab" version="1.0.171029" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>harahj alarab</name>
+<widget id="com.imabuilder.smartweb.harahjalarab" version="1.1.171110" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>حراج العرب</name>
 	<description></description>
 	<author email="mhmdqds@gmail.com" href="https://arharaj.com">mohammed moqbel</author>
 	<content src="index.html" />
